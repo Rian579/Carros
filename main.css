@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+.logo {
+    margin-top: 15px;
+    margin-left: 100px;
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.bnt {
+    padding: 0 30px;
+    height: 30px;
+    font-size: 1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    border: 2px black solid;
+    border-radius: 5px;
+    background: transparent;
+    cursor: pointer;
+    background-color: rgb(24, 207, 64);
+}
+
+.grad {
+    display: flex;
+    max-height: 80%;
+    margin-bottom: 40px;
+    font-size: larger;
+}
+
+#Especificações {
+    justify-content: center;
+    height: 100%;
+
+    padding: 5px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.desc {
+    text-align: left;
+    height: 100%;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    min-height: 75px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(3, 97, 8);
+    width: 100%;
+    background-color: white;
+    align-content: center;
+}
+
+nav {
+    font-weight: 400;
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: center;
+    padding: 0 50px;
+}
+
+nav li {
+    padding-bottom: 5px;
+}
+
+
+nav ul {
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 25px;
+}
+
+.tittle {
+    margin-bottom: 20px;
+    word-wrap: break-word;
+    margin-top: 80px;
+}
+
+.hero input[type='email'] {
+    max-width: 600px;
+    width: 100%;
+    padding: 5px;
+    width: 400px;
+    margin-top: 15px;
+}
+
+.hero input[type='submit'] {
+    max-width: 150px;
+    width: 100%;
+    height: 30px;
+    margin-top: 15px;
+    border: 0;
+    background-color: #ff0000;
+    cursor: pointer;
+}
+
+.hero input[type='submit']:hover {
+    background-color: rgb(30, 255, 0);
+    transition: background-color 0.5s;
+}
+
+#Amostra {
+    display: flex;
+    justify-content: center;
+}
+
+iframe {
+    max-width: 560px;
+    width: 100%;
+}
+
+
+.carros {
+    background-color: #1c1cb6;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.produtos h2 {
+    margin-top: 15px;
+}
+
+.produtos ol {
+    margin: 15px 0;
+}
+
+.produtos ol li {
+    padding: 5px 0;
+}
+
+.produtos button {
+    border: 0;
+    margin: 15px 0;
+    font-weight: 400;
+}
+
+footer {
+    margin-top: 30px;
+    background-color: black;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer,
+ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer,
+ul,
+li {
+    padding: 0 10px;
+}
+
+footer,
+span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.8em;
+    color: orangered;
+    margin-bottom: 7px;
+    margin-right: 17px;
+}
+.tudo{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    margin: 0 auto;
+}
+@media (min-width: 0px) {
+    .compras {
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+    .produtos {
+       
+        border: 1px solid black;
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        border-radius: 5px;
+        
+    }
+}
+@media ( min-width: 1220px) {
+    .produtos{
+        width: 33%;
+
+    }
+    .compras{
+        flex-direction: row;
+    }
+    
+}
